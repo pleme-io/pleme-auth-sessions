@@ -7,6 +7,8 @@ description = "pleme-auth-sessions library"
 repository = "https://github.com/pleme-io/pleme-auth-sessions"
 homepage = "https://github.com/pleme-io/pleme-auth-sessions"
 readme = "README.md"
+keywords = ["sessions", "redis", "authentication", "fingerprinting", "axum"]
+categories = ["authentication"]
 
 [dependencies]
 redis = { version = "0.24", features = ["connection-manager", "streams", "tokio-comp"] }
