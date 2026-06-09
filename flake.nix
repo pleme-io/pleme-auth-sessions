@@ -3,10 +3,9 @@
   description = "Redis-backed session management with device fingerprinting";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.11";
+    nixpkgs.follows = "substrate/nixpkgs";
     substrate = {
       url = "github:pleme-io/substrate";
-      inputs.nixpkgs.follows = "nixpkgs";
     };
     crate2nix = {
       url = "github:nix-community/crate2nix";
